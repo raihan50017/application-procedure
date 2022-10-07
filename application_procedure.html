@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      .accordion-button:not(.collapsed)::after {
+        background-image: url("-");
+        content: "-";
+        transform: rotate(-0deg);
+        width: 1.25rem;
+        height: 1.25rem;
+        background-size: 2rem;
+      }
+
+      .accordion-button:not(.collapsed) {
+        background-color: #177a4c;
+        color: white;
+      }
+
+      .accordion-button::after {
+        width: 1.25rem;
+        height: 1.25rem;
+        background-size: 2rem;
+        background-image: url("+");
+        content: "+";
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <div class="">
+        <div class="p-2" style="background-color: #177a4c">
+          <h4 style="font-family: kalpurush fs-4" class="text-center text-white">
+            জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয়
+          </h4>
+          <P class="text-center text-white" style="font-family: kalpurush">১ম বর্ষ স্নাতক (সম্মান) ভর্তি ২০২১-২০২২</P>
+        </div>
+        <div style="max-width: 100vw" class="row m-0 p-0">
+          <div style="background-color: #177a4c" class="col-md-2"></div>
+          <div class="col-md-10 p-5">
+            <h4
+              style="font-family: kalpurush; text-decoration: underline"
+              class="text-center pb-4 fw-bold"
+            >
+              আবেদন পদ্ধতি
+            </h4>
+            <div>
+              <p
+                class="fs-6"
+                style="font-family: kalpurush; text-align: justify"
+              >
+                <strong style="text-decoration: underline"
+                  >আবেদন পক্রিয়ার জন্য অত্যাবশ্যকীয়</strong
+                >
+                আবেদনের সময় একজন আবেদনকারীর অ্যাপ্লিকেশন আইডি, পাসওয়ার্ড এবং
+                ফোন নম্বর (GST তে নিবন্ধিত) প্রয়োজন হবে। আবেদনকারী প্রয়োজনীয়
+                কোন তথ্য ভুলে গেলে
+                <a href="https://gstadmission.ac.bd"
+                  >https://gstadmission.ac.bd</a
+                >
+                ওয়েবসাইটে গিয়ে পুনরায় রিসেট করে নিতে পারবে।
+              </p>
+            </div>
+            <div>
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button
+                      style="font-family: kalpurush"
+                      class="accordion-button fs-6 fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOne"
+                    >
+                      ধাপঃ-১
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne"
+                  >
+                    <div class="accordion-body text-center">
+                      <p
+                        class="fs-6"
+                        style="font-family: kalpurush; text-align: justify"
+                      >
+                        আবেদন করার জন্য আবেদনকারীকে
+                        <a href="https://admission.jkkniu.ac.bd"
+                          >https://admission.jkkniu.ac.bd</a
+                        >
+                        ওয়েবসাইটে প্রবেশ করে নিচের তথ্য দিয়ে লগইন করতে হবে
+                        <br /><br />
+                        ক) GST Application ID
+                        <br />
+                        খ) GST Password
+                      </p>
+                      <img
+                        style="width: 70%"
+                        class="h-auto"
+                        src="images/step1.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button
+                      style="font-family: kalpurush"
+                      class="accordion-button collapsed fs-6 fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo"
+                    >
+                      ধাপঃ-২
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo"
+                  >
+                    <div class="accordion-body text-center">
+                      <p
+                        class="fs-6"
+                        style="font-family: kalpurush; text-align: justify"
+                      >
+                        উল্লেখিত তথ্যগুলো সঠিক হলে আবেদনকারী তার ভর্তি পরীক্ষায়
+                        বিভিন্ন সাবজেক্টে প্রাপ্ত নম্বর, HSC এবং SSC তে প্রাপ্ত
+                        জিপিএ সহ একটি ড্যাশবোর্ড দেখতে পাবে।
+                      </p>
+                      <img
+                        style="width: 70%"
+                        class="h-auto"
+                        src="images/step2.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button
+                      style="font-family: kalpurush"
+                      class="accordion-button collapsed fs-6 fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo"
+                    >
+                      ধাপঃ-৩
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree"
+                  >
+                    <div class="accordion-body text-center">
+                      <p
+                        class="fs-6"
+                        style="font-family: kalpurush; text-align: justify"
+                      >
+                        এখন ভর্তির আবেদন করার জন্য Apply Now বাটনে ক্লিক করতে
+                        হবে। এই সময় কোটা সংক্রান্ত তথ্য দেখাবে। কোটা না-থাকলে No
+                        Quota, কোটা থাকলে নির্ধারিত কোটা নির্বাচন করে পরবর্তী
+                        ধাপে যাবে।
+                      </p>
+                      <img
+                        style="width: 70%"
+                        class="h-auto"
+                        src="images/step3.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button
+                      style="font-family: kalpurush"
+                      class="accordion-button collapsed fs-6 fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo"
+                    >
+                      ধাপঃ-৪
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFour"
+                  >
+                    <div class="accordion-body text-center">
+                      <p
+                        class="fs-6"
+                        style="font-family: kalpurush; text-align: justify"
+                      >
+                        এই ধাপে আবেদনকারী বিশ্ববিদ্যালয়ের অনুমোদিত ইউনিট এবং
+                        বিশ্ববিদ্যালয়ের ভর্তি বিজ্ঞপ্তিতে উল্লেখিত বিভাগীয়
+                        আবশ্যিক শর্ত সাপেক্ষে ইউনিটে অর্ন্তভুক্ত অনুমোদিত
+                        বিভাগসমূহ দেখতে পাবে। আবেদনকারী যে যে ইউনিটে আবেদন করতে
+                        ইচ্ছুক, সেই ইউনিট সিলেক্ট করে নিচের Apply বাটনে ক্লিক
+                        করে পরবর্তী ধাপে যাবে।
+                      </p>
+                      <img
+                        style="width: 70%"
+                        class="h-auto"
+                        src="images/step4-1.png"
+                      />
+                      <p
+                        class="fs-6 pt-4"
+                        style="font-family: kalpurush; text-align: justify"
+                      >
+                        উল্লেখ্য যে, B ইউনিটে অন্তর্ভুক্ত বিশেষ সাবজেক্ট সমূহে
+                        আবেদনের জন্য সাবজেক্টের পাশের বক্স সিলেক্ট করে দিতে হবে।
+                        সেক্ষেত্রে B ইউনিটের বিশেষ সাবজেক্টে আবেদনের জন্য
+                        আবেদনকারীকে আরো অতিরিক্ত ৩০০ টাকা প্রদান করতে হবে।
+                        ইতমধ্যে B ইউনিটে আবেদনকৃত কোন আবেদনকারী বিশেষ সাবজেক্ট
+                        সমূহ সিলেক্ট করতে পারবে না।
+                      </p>
+                      <img
+                        style="width: 70%"
+                        class="h-auto"
+                        src="images/step4-2.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                    <button
+                      style="font-family: kalpurush"
+                      class="accordion-button collapsed fs-6 fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseFive"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseFive"
+                    >
+                      ধাপঃ-৫
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFive"
+                  >
+                    <div class="accordion-body text-center">
+                      <p
+                        class="fs-6"
+                        style="font-family: kalpurush; text-align: justify"
+                      >
+                        এই ধাপে আবেদনকারীকে জিএসটিতে দেওয়া মোবাইল নম্বরে
+                        ভেরিফিকেশন ওটিপি পাঠানো হবে। আবেদনকারীকে সঠিক ওটিপি
+                        প্রদান করে পরবর্তী ধাপে যেতে হবে।
+                      </p>
+                      <img
+                        style="width: 70%"
+                        class="h-auto"
+                        src="images/step5.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                    <button
+                      style="font-family: kalpurush"
+                      class="accordion-button collapsed fs-6 fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSix"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseSix"
+                    >
+                      ধাপঃ-৬
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseSix"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingSix"
+                  >
+                    <div class="accordion-body text-center">
+                      <p
+                        class="fs-6"
+                        style="font-family: kalpurush; text-align: justify"
+                      >
+                        এই ধাপে আবেদনকারী সাবজেক্ট চয়েসলিস্ট জেনেরেট করবে এবং
+                        নেক্সট বাটনে ক্লিক করে পরবর্তী ধাপে যাবে।
+                      </p>
+                      <img
+                        style="width: 70%"
+                        class="h-auto"
+                        src="images/step6-1.png"
+                      />
+                      <p
+                        class="fs-6 pt-4"
+                        style="font-family: kalpurush; text-align: center"
+                      >
+                        এখানে Up & Down Arrow যুক্ত বাটন ব্যবহার করে চয়েসলিস্ট
+                        পুনঃর্বিন্যাস করা যাবে
+                      </p>
+                      <img
+                        style="width: 70%"
+                        class="h-auto"
+                        src="images/step6-2.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                    <button
+                      style="font-family: kalpurush"
+                      class="accordion-button collapsed fs-6 fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSeven"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseSeven"
+                    >
+                      ধাপঃ-৭
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseSeven"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingSeven"
+                  >
+                    <div class="accordion-body text-center">
+                      <p
+                        class="fs-6"
+                        style="font-family: kalpurush; text-align: justify"
+                      >
+                        এই ধাপে আবেদনকারী চয়েসলিস্ট দেখতে পাবে এবং সেইভ বাটনে
+                        ক্লিক করে চয়েসলিস্টটি সেইভ করে রাখতে পারবে অথবা পেইমেন্ট
+                        করার জন্য পেইমেন্ট বাটনে ক্লিক করবে।
+                      </p>
+                      <img
+                        style="width: 70%"
+                        class="h-auto"
+                        src="images/step7.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                    <button
+                      style="font-family: kalpurush"
+                      class="accordion-button collapsed fs-6 fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseEight"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseEight"
+                    >
+                      ধাপঃ-৮
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseEight"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingEight"
+                  >
+                    <div class="accordion-body text-center">
+                      <p
+                        class="fs-6"
+                        style="font-family: kalpurush; text-align: justify"
+                      >
+                        এই ধাপে আবেদনকারীকে তার নির্ধারিত ইউনটিরে জন্য আবেদন ফি
+                        প্রদান করতে হবে। বিভিন্ন অনলাইন গেটওয়ে এবং মোবাইল
+                        ব্যাংকিং সেবা (সোনালী ব্যাংক, bKash, নগদ, UCash ইত্যাদি)
+                        এর মাধ্যমে আবেদন ফি জমা দেয়া যাবে। বিস্তারিত
+                        <strong>'আবেদন ফি জমা দেবার পদ্ধতি'</strong> অনুচ্ছেদে
+                        পাওয়া যাবে।
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+                    <button
+                      style="font-family: kalpurush"
+                      class="accordion-button collapsed fs-6 fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseNine"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseNine"
+                    >
+                      ধাপঃ-৯
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseNine"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingNine"
+                  >
+                    <div class="accordion-body text-center">
+                      <p
+                        class="fs-6"
+                        style="font-family: kalpurush; text-align: justify"
+                      >
+                        আবেদন ফি জমা দেয়ার প্রক্রিয়া সম্পন্ন হলে আবেদনকারী
+                        Application Status পেইজে আসবে। এখানে আবেদনকারী তার সকল
+                        আবেদন দেখতে পাবে এবং প্রতিটি আবেদনের আবেদন ফি-জমা দানের
+                        রশিদ Download বাটনে ক্লিক করে ডাউনলোড করে সংগ্রহ করতে
+                        পারবে।
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTen">
+                    <button
+                      style="font-family: kalpurush"
+                      class="accordion-button collapsed fs-6 fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTen"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTen"
+                    >
+                      ধাপঃ-১০
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseTen"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTen"
+                  >
+                    <div class="accordion-body text-center">
+                      <p
+                        class="fs-6"
+                        style="font-family: kalpurush; text-align: justify"
+                      >
+                        আবেদননকারী চাইলে পরবরর্তীতে Dashboard থেকে Edit Subject
+                        Choice বাটনে ক্লিক করে সাবজেক্ট চয়েসলিস্ট এডিট করতে
+                        পারবে| চয়েসলিস্ট এডিট করার জন্য পূর্বের ন্যায় আবারো
+                        ওটিপি ভেরিফিকেশন করে নিতে হবে।
+                      </p>
+                      <img
+                        style="width: 70%"
+                        class="h-auto"
+                        src="images/step10-1.png"
+                      />
+                      <p
+                        class="fs-6 pt-4"
+                        style="font-family: kalpurush; text-align: center"
+                      >
+                        এখনে এডিট করতে হবে
+                      </p>
+                      <img
+                        style="width: 70%"
+                        class="h-auto"
+                        src="images/step10-2.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h4
+              style="font-family: kalpurush; text-decoration: underline"
+              class="text-center p-4 fw-bold"
+            >
+              আবেদন ফি জমা দেবার পদ্ধতি
+            </h4>
+            <div class="text-center">
+              <img style="width: 70%" class="h-auto" src="images/payment.png" />
+            </div>
+
+            <div class="mt-4 mb-4">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2
+                    class="accordion-header"
+                    id="panelsStayOpen-headingOnePayment"
+                  >
+                    <button
+                      style="font-family: kalpurush"
+                      class="accordion-button fs-6 fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseOnePayment"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOnePayment"
+                    >
+                      ধাপঃ-১ মোবাইল ব্যাংকিং
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseOnePayment"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOnePayment"
+                  >
+                    <div class="accordion-body text-center">
+                      <p
+                        class="fs-6"
+                        style="font-family: kalpurush; text-align: justify"
+                      >
+                        ক) আবেদনকারীকে প্রথমে মোবাইল ব্যাংকিং এর মাধ্যম (bKash,
+                        নগদ, UCash ) নির্বাচন করতে হবে।<br />
+                        খ) মোবাইল ব্যাংকিং একাউন্ট নম্বর (মোবাইল নম্বর) সরবরাহ
+                        করে পরবর্তী ধাতে যেতে হবে।<br />
+                        গ) একাউন্ট নম্বরটি সঠিক হলে, এই ধাপে পেমেন্টকারী তার
+                        প্রদত্ত মোবাইল নম্বরে একটি OTP রিসিভ করবে।<br />
+                        ঘ) পেইজে দেখানো OTP বক্সে প্রাপ্ত OTP টি সরবরাহ করতে হবে
+                        এবং প্রয়োজনীয় পিন কোড দিয়ে পেমেন্ট সম্পন্ন করতে হবে।
+                      </p>
+                      <p
+                        class="fs-6 pt-4"
+                        style="font-family: kalpurush; text-align: center"
+                      >
+                        মোবাইল ব্যাংকিং bKash এর মাধ্যমে টাকা প্রদানের নমুনা
+                      </p>
+                      <img
+                        style="width: 70%"
+                        class="h-auto"
+                        src="images/payment-step1.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2
+                    class="accordion-header"
+                    id="panelsStayOpen-headingTwoPayment"
+                  >
+                    <button
+                      style="font-family: kalpurush"
+                      class="accordion-button collapsed fs-6 fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTwoPayment"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwoPayment"
+                    >
+                      ধাপঃ-২ অনলাইন ব্যাংকিং
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseTwoPayment"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwoPayment"
+                  >
+                    <div class="accordion-body text-center">
+                      <p
+                        class="fs-6"
+                        style="font-family: kalpurush; text-align: justify"
+                      >
+                        ক) অনলাইন ব্যাংকিং এর ক্ষেত্রে সোনালী ব্যাংক নির্বাচন
+                        করে আবেদনকারীকে Account Transfer অপশনটি নির্বাচন করতে
+                        হবে।<br />
+                        খ) একাউন্ট নম্বর, পেমেন্টকারীর নাম ও মোবাইল নম্বর সরবরাহ
+                        করে পরবর্তী ধাপে যেতে হবে।<br />
+                        গ) প্রদত্ত তথ্য সঠিক হলে, এই ধাপে পেমেন্টকারী তার
+                        প্রদত্ত মোবাইল নম্বরে একটি OTP রিসিভ করবে।<br />
+                        ঘ) পেইজে দেখানো OTP বক্সে প্রাপ্ত OTP টি সরবরাহ করে
+                        পেমেন্ট সম্পন্ন করতে হবে।
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
